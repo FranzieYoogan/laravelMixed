@@ -18,4 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+
+
 Route::post('/', [Controller::class, 'exhbit']);
+
+Route::get('dashboard', [Controller::class, 'exhbit2']);
+

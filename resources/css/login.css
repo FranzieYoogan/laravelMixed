@@ -59,3 +59,16 @@ width: 100%;
 
 }
 
+.containerAlert {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  
+}   
+
+.containerAlert2 {
+
+   justify-content: center;
+    width: 20%;
+}

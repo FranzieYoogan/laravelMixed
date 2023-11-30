@@ -8,8 +8,7 @@
 </head>
 <body>
 
-    <h1><?php $input1 ?></h1>
-    <h1><?php $input2 ?></h1>
+    <h1><?php echo"Welcome $input1" ?></h1>
     
 </body>
 </html>
