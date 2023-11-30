@@ -4,9 +4,9 @@
 
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 13%;
     background-size: 100%;
-    height: 100%;
+
   
 }
 
@@ -22,7 +22,7 @@
     border: 2px solid black;
     padding: 20px;
     border-radius: 40px;
-    background-color: pink;
+    background-color: rgb(177, 214, 244);
 
 }
 
@@ -50,5 +50,12 @@
     position: absolute;
     left: 85%;
     transition: 1s;
+}
+
+.buttonLoginStyle {
+
+
+width: 100%;
+
 }
 

@@ -35,7 +35,7 @@
                
             <div  style="position: relative">
                 <img  class='yetiImg' id='yeti' src="/img/login/yeti.gif" alt="" style="visibility: hidden">
-                <label for="input1" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">User name</label>
+                <label style="color: white; font-weight: 900; text-shadow: 2px 2px 2px black" for="input1" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">User name</label>
                 <input onfocus="yetiEvent1()" onfocusout="yeti1EventOut()" type="text" id="input1" name="input1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your user name" required>
             </div>
 
@@ -90,7 +90,7 @@
 
 <div  style="position: relative">
     <img  class='yetiImg2' id='yeti2' src="/img/login/yeti.gif" alt="" style="visibility: hidden">
-                <label for="input2" class="input2Style block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                <label style="color: white; font-weight: 900; text-shadow: 2px 2px 2px black" for="input2" class="input2Style block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
                 <input onfocus="yetiEvent2()" onfocusout="yeti2EventOut()" type="password" id="input2" name="input2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your passsword" required>
             </div>
 
