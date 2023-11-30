@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -8,38 +9,101 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 
 
-
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-        <!-- Styles -->
+            <style>
+
+          <?php include('/testingLaravel/testing-app/resources/css/login.css'); ?>
+          
+          </style>
+  
        
     </head>
     <body class="antialiased">
-        <div class="">
 
-            <form action="/" method="POST">
+
+        
+      
+
+            <form action="/" method="POST" class="containerLogin">
+
+                <div class='borderStyle'>
                
-            <div>
-                <label for="input1" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-                <input type="text" id="input1" name="input1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your first hame" required>
+            <div  style="position: relative">
+                <img  class='yetiImg' id='yeti' src="/img/login/yeti.gif" alt="" style="visibility: hidden">
+                <label for="input1" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">User name</label>
+                <input onfocus="yetiEvent1()" onfocusout="yeti1EventOut()" type="text" id="input1" name="input1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your user name" required>
             </div>
 
-            <div>
-                <label for="input2" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
-                <input type="text" id="input2" name="input2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your second name" required>
+            <script>
+         
+                function yetiEvent1() {
+             
+                    document.getElementById("yeti").style.visibility = 'visible';
+           
+                    document.getElementById("yeti").style.transition = '6s';
+
+             
+                        document.getElementById("yeti").style.left = '0%';
+
+                   
+
+
+                }
+
+                function yeti1EventOut() {
+
+                    document.getElementById("yeti").style.transition = '0s';
+                    document.getElementById("yeti").style.visibility = 'hidden';
+                    document.getElementById("yeti").style.left = '85%';
+                }
+
+
+                function yetiEvent2() {
+             
+             document.getElementById("yeti2").style.visibility = 'visible';
+    
+             document.getElementById("yeti2").style.transition = '6s';
+
+      
+                 document.getElementById("yeti2").style.left = '0%';
+
+            
+
+
+         }
+
+         function yeti2EventOut() {
+
+             document.getElementById("yeti2").style.transition = '0s';
+             document.getElementById("yeti2").style.visibility = 'hidden';
+             document.getElementById("yeti2").style.left = '85%';
+         }
+
+
+
+        </script>
+
+<div  style="position: relative">
+    <img  class='yetiImg2' id='yeti2' src="/img/login/yeti.gif" alt="" style="visibility: hidden">
+                <label for="input2" class="input2Style block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                <input onfocus="yetiEvent2()" onfocusout="yeti2EventOut()" type="password" id="input2" name="input2" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Type your passsword" required>
             </div>
 
-            <button type="submit" name="submit" id="submit" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">EXHBIT</button>
+            <button type="submit" name="submit" id="submit" class="buttonLoginStyle text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">EXHBIT</button>
 
-
+        </div>
 
                 </form>
 
            
+
+            
+
 
             
          
