@@ -31,9 +31,14 @@ class Controller extends BaseController
 
                 if($result) {
 
-                  
+                    echo " <h1> $input1 LOGGED!!</h1>
+                    
+                    <script>
 
-                    echo " <h1> $input1 LOGGED!!</h1>";
+                    document.querySelector('body').style.background = 'url(/img/login/snow.gif)';
+                    
+                    </script>
+                    ";
                 }
 
          
