@@ -26,6 +26,7 @@
     left: 29.3%;
     cursor: pointer;
     transition: 1s;
+    z-index: 1;
 }
 
 .interactionStyle1:hover {
@@ -73,6 +74,7 @@
     left: 90%;
     cursor: pointer;
     transition: 1s;
+    z-index: 1;
 }
 
 
@@ -82,7 +84,7 @@
     width: auto;
     min-width: 70px;
     max-width: 70px;
-  
+  z-index: 1;
 }
 
 .questionStyle2:hover {
@@ -126,7 +128,8 @@
     top: -3em;
     bottom: auto;
     left: 15%;
-    cursor: pointer;
+
+ 
 }
 
 
@@ -168,6 +171,7 @@
     bottom: auto;
     left: 50%;
     cursor: pointer;
+
 }
 
 
@@ -203,6 +207,7 @@
     bottom: auto;
     left: -30%;
     cursor: pointer;
+
 }
 
 .interactionStyle5Explosion {
