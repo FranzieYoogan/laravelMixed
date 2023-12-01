@@ -19,6 +19,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/header', function () {
+    return view('header');
+});
+
+
 
 
 

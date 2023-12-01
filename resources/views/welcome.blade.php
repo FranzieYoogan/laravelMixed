@@ -1,3 +1,9 @@
+<script>
+    Window.onload = function doIt() {
+        document.getElementByClassName('anchorStyle').focus();
+    
+    }
+        </script>
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -24,11 +30,11 @@
        
     </head>
     <body>
+    
 
-
-        
-      
-
+           <?php include('/testingLaravel/testing-app/resources/views/header.blade.php'); ?>
+    
+           
             <form action="/" method="POST" class="containerLogin" id="containerLogin">
 
                 <div class='borderStyle'>
