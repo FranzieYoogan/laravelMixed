@@ -34,24 +34,53 @@ padding: 0;
 
 .anchorStyle:visited, .anchorStyle:focus, .anchorStyle:hover, .anchorStyle:active{
 
-    color: rgb(177, 214, 244);
- 
+    color: rgb(177, 214, 244) !important;
+    opacity: 1;
 
 }
 
+.linkStyleHeader:hover {
+    color: rgb(177, 214, 244) !important;
+    opacity: 1;
+    font-weight: 900;
+    
+
+
+}
 
 
 
 .anchorStyle {
-    color: gray;
-
-
+    margin-top: 30px !important;
+    color: rgb(177, 214, 244);
+    background-color: transparent;
+    border-left: 1px solid rgb(177, 214, 244);
+    border-bottom: 1px solid rgb(177, 214, 244);
+    border-radius: 0px;
 }
 
 .anchorStyleDropDown {
-
+    border: 2px solid transparent;
+    padding: 4px 7px 4px 7px;
+    border-radius: 40px;
     color: rgb(177, 214, 244);
+    transition: 0.3s;
+}
+
+.anchorStyleDropDown:hover, .anchorStyleDropDown:active, .anchorStyleDropDown:focus {
+    color: rgb(177, 214, 244);
+    border: 2px solid rgb(177, 214, 244);
+    padding: 4px 7px 4px 7px;
+    border-radius: 40px;
+    background-color: transparent;
+    font-weight: 900;
 
 }
 
+
+.dropdownActiveStyle {
+
+    background-color: transparent !important;
+
+}
 
