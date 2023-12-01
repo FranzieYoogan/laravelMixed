@@ -1,9 +1,4 @@
-<script>
-    Window.onload = function doIt() {
-        document.getElementByClassName('anchorStyle').focus();
-    
-    }
-        </script>
+
 
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

@@ -84,7 +84,7 @@ class Controller extends BaseController
     public function exhbit2() {
         session_start();
         include('/testingLaravel/testing-app/resources/views/dashboard.blade.php');
-
+        
         echo "WELCOME $_SESSION[userName]";
 
     }

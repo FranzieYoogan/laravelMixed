@@ -9,18 +9,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <style>
+
+        <?php include('/testingLaravel/testing-app/resources/css/logo.css') ?>
+    <?php include('/testingLaravel/testing-app/resources/css/dashboard.css') ?>
+    </style>
+
 </head>
 
 
 <body>
     
-<style>
 
-    <?php include('/testingLaravel/testing-app/resources/css/logo.css') ?>
-<?php include('/testingLaravel/testing-app/resources/css/dashboard.css') ?>
-</style>
     <?php include('/testingLaravel/testing-app/resources/views/header.blade.php') ?>
 
+        <section class="containerDashboardStyle">
+
+    <div style="position: relative;">
+        <img class='questionStyle' id='questionMark1' onclick="questionInteraction()" src="/img/dashboard/questionMark.png" alt="">
+        <img class='interactionStyle1' id="interaction" onclick="" src="/img/dashboard/event1.gif" alt="" style="visibility: hidden">
+    </div>
+
+    <script>
+        function questionInteraction() {
+            document.getElementById('questionMark1').style.transition = '0s';
+            document.getElementById('questionMark1').style.visibility = 'hidden';
+            document.getElementById('interaction').style.visibility = 'visible';
+
+         
+
+        }
+
+    </script>
+
     
+    <div style="position: relative;">
+        <img class='questionStyle2' id="questionMark2" onclick="questionInteraction2()" src="/img/dashboard/questionMark.png" alt="">
+        <img class='interactionStyle2' id="interaction2" onclick="" src="/img/dashboard/event2.gif" alt="" style="visibility: hidden">
+    </div>
+
+
+    <script>
+        function questionInteraction2() {
+            document.getElementById('questionMark2').style.transition = '0s';
+            document.getElementById('questionMark2').style.visibility = 'hidden';
+            document.getElementById('interaction2').style.visibility = 'visible';
+
+         
+
+        }
+
+    </script>
+
+
+<div style="position: relative;">
+    <img class='questionStyle3' id="questionMark3" onclick="questionInteraction3()" src="/img/dashboard/questionMark.png" alt="">
+    <img class='interactionStyle3' id="interaction3" onclick="" src="/img/dashboard/event3.gif" alt="" style="visibility: hidden">
+</div>
+
+
+<script>
+    function questionInteraction3() {
+        document.getElementById('questionMark3').style.transition = '0s';
+        document.getElementById('questionMark3').style.visibility = 'hidden';
+        document.getElementById('interaction3').style.visibility = 'visible';
+        document.getElementById('interaction3').style.transition = '6s';
+        document.getElementById('interaction3').style.left = '130%';
+
+     
+
+    }
+
+</script>
+
+
+<div style="position: relative;">
+    <img class='questionStyle4' id="questionMark4" onclick="questionInteraction4()" src="/img/dashboard/questionMark.png" alt="">
+    <img class='interactionStyle4' id="interaction4" onclick="" src="/img/dashboard/event4.gif" alt="" style="visibility: hidden">
+</div>
+
+
+<script>
+    function questionInteraction4() {
+        document.getElementById('questionMark4').style.transition = '0s';
+        document.getElementById('questionMark4').style.visibility = 'hidden';
+        document.getElementById('interaction4').style.visibility = 'visible';
+        document.getElementById('interaction4').style.transition = '6s';
+        document.getElementById('interaction4').style.left = '60%';
+        document.getElementById('interaction4').style.top = '20em';
+        document.getElementById('interaction4').style.minWidth = '0px';
+        document.getElementById('interaction4').style.maxWidth = '0px';
+
+    }
+
+</script>
+
+
+</section>
+
+
 </body>
 </html>

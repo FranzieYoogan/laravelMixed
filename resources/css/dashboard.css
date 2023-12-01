@@ -1,5 +1,188 @@
+
+
+
+
+.questionStyle {
+
+    position: absolute;
+    width: auto;
+    min-width: 25px;
+    max-width: 25px;
+    top: 13em;
+    left: 30%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.interactionStyle1 {
+
+    position: absolute;
+    width: auto;
+    min-width: 50px;
+    max-width: 50px;
+    top: 12em;
+    left: 29.3%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.interactionStyle1:hover {
+
+    position: absolute;
+    width: auto;
+    min-width: 70px;
+    max-width: 70px;
+
+}
+
+.questionStyle:hover {
+
+
+    width: auto;
+    min-width: 35px;
+    max-width: 35px;
+ 
+}
+
+
+.questionStyle2 {
+
+    position: absolute;
+    width: auto;
+    min-width: 25px;
+    max-width: 25px;
+    top: 25em;
+    bottom: auto;
+    left: 90%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.interactionStyle2 {
+
+    position: absolute;
+    width: auto;
+    min-width: 50px;
+    max-width: 50px;
+    top: 25em;
+    bottom: auto;
+    left: 90%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.interactionStyle2:hover {
+
+    
+    width: auto;
+    min-width: 70px;
+    max-width: 70px;
+  
+}
+
+.questionStyle2:hover {
+
+
+    width: auto;
+    min-width: 35px;
+    max-width: 35px;
+ 
+}
+
+.questionStyle3 {
+
+    position: absolute;
+    width: auto;
+    min-width: 25px;
+    max-width: 25px;
+    top: -2em;
+    bottom: auto;
+    left: 15%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.questionStyle3:hover {
+
+
+    width: auto;
+    min-width: 35px;
+    max-width: 35px;
+ 
+}
+
+.interactionStyle3 {
+
+    position: absolute;
+    width: auto;
+    min-width: 50px;
+    max-width: 50px;
+    top: -3em;
+    bottom: auto;
+    left: 15%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.questionStyle4 {
+
+    position: absolute;
+    width: auto;
+    min-width: 25px;
+    max-width: 25px;
+    top: 12em;
+    bottom: auto;
+    left: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.questionStyle4:hover {
+
+
+    width: auto;
+    min-width: 35px;
+    max-width: 35px;
+ 
+}
+
+.interactionStyle4 {
+
+    position: absolute;
+    width: auto;
+    min-width: 50px;
+    max-width: 50px;
+    top: 12em;
+    bottom: auto;
+    left: 50%;
+    cursor: pointer;
+}
+
+
+.containerDashboardStyle {
+
+    height: auto;
+    min-height: 50%;
+    max-height: 50%;
+
+
+}
+
+
+
+
 body {
 
-    background: url(/img/login/background.gif);
-
+    background-image: url('/img/dashboard/universe.png');
+    background-size: 100%;
+    height: 100%;
+     
 }
