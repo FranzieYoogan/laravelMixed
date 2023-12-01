@@ -167,6 +167,56 @@
 }
 
 
+.questionStyle5 {
+
+    position: absolute;
+    width: auto;
+    min-width: 25px;
+    max-width: 25px;
+    top: 35em;
+    bottom: auto;
+    left: 55%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.questionStyle5:hover {
+
+
+    width: auto;
+    min-width: 35px;
+    max-width: 35px;
+    
+}
+
+.interactionStyle5 {
+
+    position: absolute;
+    width: auto;
+    min-width: 0px;
+    max-width: 0px;
+    top: 35em;
+    bottom: auto;
+    left: -30%;
+    cursor: pointer;
+}
+
+.interactionStyle5Explosion {
+
+    position: absolute;
+    width: auto;
+    min-width: 0px;
+    max-width: 0px;
+    top: 16em;
+    bottom: auto;
+    left: 47%;
+
+
+}
+
+
+
+
 .containerDashboardStyle {
 
     height: auto;

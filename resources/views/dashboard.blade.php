@@ -111,6 +111,53 @@
 
 </section>
 
+<div style="position: relative;">
+    <img class='questionStyle5' id="questionMark5" onclick="questionInteraction5()" src="/img/dashboard/questionMark.png" alt="">
+    <img class='interactionStyle5' id="interaction5" onclick="" src="/img/dashboard/hadoukein.gif" alt="" style="visibility: hidden">
+    <img class='interactionStyle5Explosion' id="interaction5Explosion" onclick="" src="/img/dashboard/explosion.gif" alt="" style="visibility: hidden">
+</div>
+
+
+<script>
+    function questionInteraction5() {
+        document.getElementById('questionMark5').style.transition = '0s';
+        document.getElementById('questionMark5').style.visibility = 'hidden';
+        document.getElementById('interaction5').style.visibility = 'visible';
+        document.getElementById('interaction5').style.transition = '3s';
+        document.getElementById('interaction5').style.left = '45%';
+        document.getElementById('interaction5').style.top = '20em';
+        document.getElementById('interaction5').style.minWidth = '150px';
+        document.getElementById('interaction5').style.maxWidth = '150px';  
+
+        setTimeout(() => {
+            document.getElementById('interaction5').style.visibility = 'hidden';
+
+  
+        }, 1000);
+
+
+        setTimeout(() => {
+
+            document.getElementById('interaction5Explosion').style.visibility = 'visible';
+        document.getElementById('interaction5Explosion').style.minWidth = '150px';
+        document.getElementById('interaction5Explosion').style.maxWidth = '150px';  
+  
+        }, 3000);
+    
+  
+
+
+   
+
+
+    }
+
+</script>
+
+
+</section>
+
+
 
 </body>
 </html>
