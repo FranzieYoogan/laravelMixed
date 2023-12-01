@@ -19,15 +19,14 @@ Route::get('/', function () {
 });
 
 
-Route::get('/header', function () {
-    return view('header');
-});
 
 
 
 
-
-Route::post('/', [Controller::class, 'exhbit']);
+Route::post('dashboard', [Controller::class, 'exhbit']);
 
 Route::get('dashboard', [Controller::class, 'exhbit2']);
 
+Route::get('header', [Controller::class, 'header']);
+
+Route::get('welcome', [Controller::class, 'destroy']);

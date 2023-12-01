@@ -30,12 +30,12 @@
        
     </head>
     <body>
-    
+     
 
            <?php include('/testingLaravel/testing-app/resources/views/header.blade.php'); ?>
     
            
-            <form action="/" method="POST" class="containerLogin" id="containerLogin">
+            <form action="/dashboard" method="POST" class="containerLogin" id="containerLogin">
 
                 <div class='borderStyle'>
                

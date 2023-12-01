@@ -17,7 +17,7 @@ class Controller extends BaseController
     public function exhbit()
     {
 
-      
+    
         
 
  
@@ -31,6 +31,7 @@ class Controller extends BaseController
             if($result) {
                 session_start();
                 $_SESSION['userName'] = $input1;
+
                 @include('/testingLaravel/testing-app/resources/views/welcome.blade.php');
 
 
@@ -51,9 +52,11 @@ class Controller extends BaseController
                    </div>
                     <script>
                     document.querySelector('body').style.background = 'url(/img/login/snow.gif)';
+                    document.getElementById('dropdownNavbarLink').style.visibility ='hidden';
                     setTimeout(() => {
+                
                         window.location.href = '/dashboard';
-
+                 
                       }, 3000);
 
                     </script>
@@ -63,7 +66,7 @@ class Controller extends BaseController
                     ";
 
                    
-
+                  
                 }
 
               
@@ -80,7 +83,22 @@ class Controller extends BaseController
 
     public function exhbit2() {
         session_start();
+        include('/testingLaravel/testing-app/resources/views/dashboard.blade.php');
+
         echo "WELCOME $_SESSION[userName]";
+
+    }
+
+    public function header() {
+        session_start();
+
+        return $_SESSION['userName'];
+
+    }
+
+    public function destroy() {
+        session_start();
+       session_destroy();
 
     }
     
