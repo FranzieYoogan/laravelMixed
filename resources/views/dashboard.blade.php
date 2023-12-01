@@ -115,6 +115,9 @@
     <img class='questionStyle5' id="questionMark5" onclick="questionInteraction5()" src="/img/dashboard/questionMark.png" alt="">
     <img class='interactionStyle5' id="interaction5" onclick="" src="/img/dashboard/hadoukein.gif" alt="" style="visibility: hidden">
     <img class='interactionStyle5Explosion' id="interaction5Explosion" onclick="" src="/img/dashboard/explosion.gif" alt="" style="visibility: hidden">
+    <img class='interactionStyle5Explosion2' id="interaction5Explosion2" onclick="" src="/img/dashboard/explosion.gif" alt="" style="visibility: hidden">
+    <img class='interactionStyle5Explosion3' id="interaction5Explosion3" onclick="" src="/img/dashboard/explosion.gif" alt="" style="visibility: hidden">
+    <img class='interactionStyle5Explosion4' id="interaction5Explosion4" onclick="" src="/img/dashboard/explosion.gif" alt="" style="visibility: hidden">
 </div>
 
 
@@ -144,10 +147,64 @@
   
         }, 3000);
     
-  
+        setTimeout(() => {
+
+document.getElementById('interaction5Explosion2').style.visibility = 'visible';
+document.getElementById('interaction5Explosion2').style.minWidth = '150px';
+document.getElementById('interaction5Explosion2').style.maxWidth = '150px';  
+
+}, 4000);
+
+setTimeout(() => {
+
+document.getElementById('interaction5Explosion3').style.visibility = 'visible';
+document.getElementById('interaction5Explosion3').style.minWidth = '150px';
+document.getElementById('interaction5Explosion3').style.maxWidth = '150px';  
+
+}, 5000);
+
+setTimeout(() => {
+
+document.getElementById('interaction5Explosion4').style.visibility = 'visible';
+document.getElementById('interaction5Explosion4').style.minWidth = '150px';
+document.getElementById('interaction5Explosion4').style.maxWidth = '150px';  
+
+}, 6000);
+
+setTimeout(() => {
+
+document.getElementById('interaction5Explosion').style.visibility = 'hidden';
+document.getElementById('interaction5Explosion2').style.visibility = 'hidden';
+document.getElementById('interaction5Explosion3').style.visibility = 'hidden';
+document.getElementById('interaction5Explosion4').style.visibility = 'hidden';
+document.querySelector('body').style.background = 'url(/img/dashboard/worldEvent.jpg)';
+document.querySelector('body').style.backgroundSize = '100%';
 
 
-   
+
+
+
+
+
+}, 8000);
+
+
+setTimeout(() => {
+
+    document.getElementById('questionMark1').style.visibility = 'hidden';
+document.getElementById('questionMark2').style.visibility = 'hidden';
+document.getElementById('questionMark3').style.visibility = 'hidden';
+document.getElementById('questionMark4').style.visibility = 'hidden';
+document.getElementById('questionMark5').style.visibility = 'hidden';
+
+document.getElementById('interaction').style.visibility = 'hidden';
+document.getElementById('interaction2').style.visibility = 'hidden';
+document.getElementById('interaction3').style.visibility = 'hidden';
+document.getElementById('interaction4').style.visibility = 'hidden';
+document.getElementById('interaction5').style.visibility = 'hidden';
+
+
+}, 7000);
 
 
     }
