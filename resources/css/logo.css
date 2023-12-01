@@ -23,8 +23,21 @@ padding: 0;
 
     font-weight: 900 !important;
     color: rgb(177, 214, 244);
+    transition: 1s;
+}
+
+.logoNameStyle:hover {
+
+    margin-left: 1em !important;
+
 
 }
+
+.logoAnimation:hover > .logoNameStyle {
+    margin-left: 1em !important;
+
+}
+
 
 .listMenuStyle {
 
@@ -33,6 +46,13 @@ padding: 0;
 }
 
 .anchorStyle:visited, .anchorStyle:focus, .anchorStyle:hover, .anchorStyle:active{
+
+    color: rgb(177, 214, 244) !important;
+    opacity: 1;
+
+}
+
+.anchorStyleLogin:visited, .anchorStyleLogin:focus, .anchorStyleLogin:hover, .anchorStyleLogin:active{
 
     color: rgb(177, 214, 244) !important;
     opacity: 1;

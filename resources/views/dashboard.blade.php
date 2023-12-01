@@ -14,13 +14,16 @@
 
         <?php include('/testingLaravel/testing-app/resources/css/logo.css') ?>
     <?php include('/testingLaravel/testing-app/resources/css/dashboard.css') ?>
+
     </style>
 
 </head>
 
 
 <body>
-    
+
+
+
 
     <?php include('/testingLaravel/testing-app/resources/views/header.blade.php') ?>
 

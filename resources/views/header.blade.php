@@ -9,7 +9,7 @@
 
 <nav class='navStyle bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700'>
     <div class=' flex flex-wrap items-center justify-between mx-auto p-4'>
-      <a href='#' class='flex items-center space-x-3 rtl:space-x-reverse'>
+      <a href='/' class='logoAnimation flex items-center space-x-3 rtl:space-x-reverse'>
           <img src='/img/login/logo.png' class='logoStyle h-8' alt='Flowbite Logo' />
           <span class='logoNameStyle self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>LaravelTesting</span>
       </a>
@@ -24,7 +24,7 @@
             <?php if (!isset($_SESSION['userName'])) {
                 echo"
             <li>
-            <a href='/' id='anchor' class='anchorStyle block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent' aria-current='page'>Login</a>
+            <a href='/' id='anchor' class='anchorStyleLogin block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent  md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent' aria-current='page'>Login</a>
          
      
         
