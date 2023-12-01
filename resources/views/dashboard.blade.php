@@ -180,7 +180,7 @@ document.getElementById('interaction5Explosion4').style.visibility = 'hidden';
 document.querySelector('body').style.background = 'url(/img/dashboard/worldEvent.jpg)';
 document.querySelector('body').style.backgroundSize = '100%';
 
-
+document.getElementById('questionMark6').style.visibility = 'visible';
 
 
 
@@ -203,9 +203,57 @@ document.getElementById('interaction3').style.visibility = 'hidden';
 document.getElementById('interaction4').style.visibility = 'hidden';
 document.getElementById('interaction5').style.visibility = 'hidden';
 
-
 }, 7000);
 
+
+    }
+
+   
+
+
+
+
+
+
+</script>
+
+
+<div style="position: relative;">
+    <img class='questionStyle6' id="questionMark6" onclick="questionInteraction6()" src="/img/dashboard/reset.gif" alt="">
+    <img class='interactionStyle6' id="interaction6" onclick="" src="/img/dashboard/reset.gif" alt="" style="visibility: hidden">
+</div>
+
+
+<script>
+    function questionInteraction6() {
+
+        document.getElementById('questionMark6').style.visibility = 'hidden';
+    
+        setTimeout(() => {
+            document.querySelector('body').style.background = 'url(/img/dashboard/worldReset.gif)';
+            document.querySelector('body').style.backgroundSize = '100%';
+        
+        }, 500);
+
+        setTimeout(() => {
+            location.href = "/dashboard";
+            document.querySelector('body').style.zIndex = '1';
+         document.getElementById('questionMark6').style.visibility = 'hidden';
+         document.getElementById('questionMark5').style.visibility = 'visible';
+         document.getElementById('questionMark4').style.visibility = 'visible';
+         document.getElementById('questionMark3').style.visibility = 'visible';
+         document.getElementById('questionMark2').style.visibility = 'visible';
+         document.getElementById('questionMark1').style.visibility = 'visible';
+
+         document.getElementById('questionMark5').style.cursor = 'pointer';
+         document.getElementById('questionMark4').style.cursor = 'pointer';
+         document.getElementById('questionMark3').style.cursor = 'pointer';
+         document.getElementById('questionMark2').style.cursor = 'pointer';
+         document.getElementById('questionMark1').style.cursor = 'pointer';
+        }, 3000);
+
+    
+    
 
     }
 

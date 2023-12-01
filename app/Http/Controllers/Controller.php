@@ -94,7 +94,7 @@ class Controller extends BaseController
         session_start();
         include('/testingLaravel/testing-app/resources/views/dashboard.blade.php');
         
-        echo "WELCOME $_SESSION[userName]";
+
 
     }
 
