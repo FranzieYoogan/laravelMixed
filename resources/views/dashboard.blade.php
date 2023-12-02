@@ -90,9 +90,11 @@
         document.getElementById('questionMark3').style.visibility = 'hidden';
         document.getElementById('interaction3').style.visibility = 'visible';
         document.getElementById('interaction3').style.transition = '6s';
-        document.getElementById('interaction3').style.left = '130%';
+        document.getElementById('interaction3').style.left = '90%';
 
-     
+        setTimeout(() => {
+            document.getElementById('interaction3').style.visibility = 'hidden';
+        }, 2000);
 
     }
 
