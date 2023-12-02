@@ -57,7 +57,7 @@
     max-width: 25px;
     top: 36em;
     bottom: auto;
-    left: 64%;
+    left: 75%;
     right: 0%;
     cursor: pointer;
     transition: 1s;
@@ -73,7 +73,7 @@
     max-width: 50px;
     top: 36em;
     bottom: auto;
-    left: 64%;
+    left: 75%;
     right: 0%;
     cursor: pointer;
     transition: 1s;
@@ -286,7 +286,8 @@
 
 
 .containerDashboardStyle {
-
+        height: auto;
+        width: auto;    
 
 
 
@@ -303,9 +304,9 @@ body {
     background-position-x: 45% !important;
     background-position-y: -3em !important;
     width: auto !important;
-    min-width:1000px;
+    min-width:700px;
     max-width: auto;
-    height: 100% !important;
+    height: auto !important;
     overflow-x: hidden;
 
 }

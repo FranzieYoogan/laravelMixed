@@ -243,7 +243,7 @@ document.getElementById('interaction5').style.visibility = 'hidden';
     
         setTimeout(() => {
             document.querySelector('body').style.background = 'url(/img/dashboard/worldReset.gif) no-repeat';
-            window.scroll('0,300');
+            window.scroll(0,900);
 
         }, 500);
 
