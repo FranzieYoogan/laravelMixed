@@ -53,14 +53,39 @@ class Controller extends BaseController
                     <script>
                     document.querySelector('body').style.background = 'url(/img/login/snow.gif)';
                     document.getElementById('dropdownNavbarLink').style.visibility ='hidden';
-               
+                 
 
-                    setTimeout(() => {
+              
+
+                      setTimeout(() => {
                 
-                        document.getElementById('containerAlert').style.marginLeft = '0.5%';
+                        document.getElementById('containerAlert').style.marginLeft = '15%';
                     
                     
-                      }, 50);
+                      }, 100);
+
+                      setTimeout(() => {
+                
+                        document.getElementById('containerAlert').style.marginLeft = '0%';
+                    
+                    
+                      }, 200);
+
+                      setTimeout(() => {
+                
+                        document.getElementById('containerAlert').style.marginRight = '15%';
+                    
+                    
+                      }, 300);
+
+                      setTimeout(() => {
+                
+                        document.getElementById('containerAlert').style.marginRight = '0%';
+                        document.getElementById('containerAlert').style.marginLeft = '0%';
+                    
+                      }, 400);
+
+                 
 
                     setTimeout(() => {
                  

@@ -9,6 +9,8 @@ padding: 0;
     min-width: 35px;
     max-width: 35px;
     height: auto;
+    position: relative;
+    right: 70px;
     
 
 }
@@ -20,10 +22,11 @@ padding: 0;
 }
 
 .logoNameStyle {
-
+    font-size: 0%;
     font-weight: 900 !important;
     color: rgb(177, 214, 244);
-    transition: 1s;
+    transition: 0.5s;
+ 
 }
 
 .logoNameStyle:hover {

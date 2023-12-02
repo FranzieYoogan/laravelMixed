@@ -20,9 +20,21 @@
 </head>
 
 
-<body>
+<body onload="headerEvent()">
 
+    <script>
 
+        function headerEvent() {
+
+                setTimeout(() => {
+                    document.getElementById('logoNameStyle').style.fontSize = '150%';
+                    document.getElementById('logoStyle').style.transition = '0.5s';
+                    document.getElementById('logoStyle').style.right = '0px';
+                }, 300);
+
+        }
+
+    </script>
 
 
     <?php include('/testingLaravel/testing-app/resources/views/header.blade.php') ?>
@@ -231,6 +243,7 @@ document.getElementById('interaction5').style.visibility = 'hidden';
     
         setTimeout(() => {
             document.querySelector('body').style.background = 'url(/img/dashboard/worldReset.gif) no-repeat';
+            window.scroll('0,300');
 
         }, 500);
 
