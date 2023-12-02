@@ -139,7 +139,7 @@
         document.getElementById('questionMark5').style.visibility = 'hidden';
         document.getElementById('interaction5').style.visibility = 'visible';
         document.getElementById('interaction5').style.transition = '3s';
-        document.getElementById('interaction5').style.left = '45%';
+        document.getElementById('interaction5').style.left = '35%';
         document.getElementById('interaction5').style.top = '20em';
         document.getElementById('interaction5').style.minWidth = '150px';
         document.getElementById('interaction5').style.maxWidth = '150px';  
