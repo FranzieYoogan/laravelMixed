@@ -9,7 +9,8 @@
     min-width: 25px;
     max-width: 25px;
     top: 13em;
-    left: 30%;
+    left: 5%;
+    right: auto;
     cursor: pointer;
     transition: 1s;
     z-index: 1;
@@ -23,7 +24,7 @@
     min-width: 50px;
     max-width: 50px;
     top: 12em;
-    left: 29.3%;
+    left: 5%;
     cursor: pointer;
     transition: 1s;
     z-index: 1;
@@ -54,9 +55,10 @@
     width: auto;
     min-width: 25px;
     max-width: 25px;
-    top: 25em;
+    top: 36em;
     bottom: auto;
-    left: 90%;
+    left: 64%;
+    right: 0%;
     cursor: pointer;
     transition: 1s;
     z-index: 1;
@@ -69,9 +71,10 @@
     width: auto;
     min-width: 50px;
     max-width: 50px;
-    top: 25em;
+    top: 36em;
     bottom: auto;
-    left: 90%;
+    left: 64%;
+    right: 0%;
     cursor: pointer;
     transition: 1s;
     z-index: 1;
@@ -128,6 +131,7 @@
     top: -3em;
     bottom: auto;
     left: 15%;
+    right: 0;
 
  
 }
@@ -144,9 +148,10 @@
     width: auto;
     min-width: 25px;
     max-width: 25px;
-    top: 12em;
+    top: 15em;
     bottom: auto;
-    left: 50%;
+    left: 43%;
+    right: auto;
     cursor: pointer;
     transition: 1s;
     z-index: 1;
@@ -167,9 +172,9 @@
     width: auto;
     min-width: 50px;
     max-width: 50px;
-    top: 12em;
+    top: 15em;
     bottom: auto;
-    left: 50%;
+    left: 40%;
     cursor: pointer;
 
 }
@@ -183,7 +188,7 @@
     max-width: 25px;
     top: 35em;
     bottom: auto;
-    left: 55%;
+    left: 38%;
     cursor: pointer;
     transition: 1s;
 }
@@ -295,9 +300,12 @@ body {
     background-image: url('/img/dashboard/universe.png');
     background-repeat: no-repeat !important;
     background-size: 2000px !important;
-    background-position-x: center !important;
+    background-position-x: 45% !important;
     background-position-y: -3em !important;
-    width: 100% !important;
+    width: auto !important;
+    min-width:1000px;
+    max-width: auto;
     height: 100% !important;
     overflow-x: hidden;
+
 }
