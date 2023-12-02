@@ -27,6 +27,9 @@ Route::post('dashboard', [Controller::class, 'exhbit']);
 
 Route::get('dashboard', [Controller::class, 'exhbit2']);
 
+
+Route::get('end', [Controller::class, 'end']);
+
 Route::get('header', [Controller::class, 'header']);
 
 Route::get('welcome', [Controller::class, 'destroy']);

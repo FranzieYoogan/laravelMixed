@@ -110,7 +110,17 @@ class Controller extends BaseController
        session_destroy();
 
     }
-    
+    public function end() {
+        session_start();
+        include('/testingLaravel/testing-app/resources/views/end.blade.php');
+
+
+
+
+   
+
+
+    }
 
 
 

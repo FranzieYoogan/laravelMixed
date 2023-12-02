@@ -218,11 +218,11 @@ document.getElementById('interaction5').style.visibility = 'hidden';
 </script>
 
 
+
 <div style="position: relative;">
     <img class='questionStyle6' id="questionMark6" onclick="questionInteraction6()" src="/img/dashboard/reset.gif" alt="">
     <img class='interactionStyle6' id="interaction6" onclick="" src="/img/dashboard/reset.gif" alt="" style="visibility: hidden">
 </div>
-
 
 <script>
     function questionInteraction6() {
@@ -230,9 +230,8 @@ document.getElementById('interaction5').style.visibility = 'hidden';
         document.getElementById('questionMark6').style.visibility = 'hidden';
     
         setTimeout(() => {
-            document.querySelector('body').style.background = 'url(/img/dashboard/worldReset.gif)';
-            document.querySelector('body').style.backgroundSize = '100%';
-        
+            document.querySelector('body').style.background = 'url(/img/dashboard/worldReset.gif) no-repeat';
+
         }, 500);
 
         setTimeout(() => {
