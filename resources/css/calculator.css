@@ -1,5 +1,19 @@
 body {
 
-    background: url('/img/login/background.gif');
+ 
+
+width: 100% !important;
+height: 100% !important;
+    background-image: url(/img/login/background.gif);
+    background-size: 100%;
+        background-size: 1000px;
+overflow-x: hidden;
 
 }
+
+.containerCalculator {
+
+  
+    
+}
+

@@ -31,14 +31,25 @@
                     document.getElementById('logoStyle').style.right = '0px';
                 }, 300);
 
-        }
+              
+    }
+
+
+  
+
 
     </script>
 
-    <?php session_start();
+
+
+<?php session_start();
       include('/testingLaravel/testing-app/resources/views/header.blade.php'); ?>
 
+        <section class="containerCalculator" id='containerCalculator'>
+ 
 
+
+        </section>
 
     
 </body>

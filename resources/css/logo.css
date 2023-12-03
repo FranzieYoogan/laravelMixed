@@ -19,6 +19,7 @@
     
         border-bottom: 3px solid rgb(177, 214, 244);
         background-color: transparent;
+
     }
     
     .logoNameStyle {
@@ -47,7 +48,7 @@
       
     }
     
-    .anchorStyle:visited, .anchorStyle:focus, .anchorStyle:hover, .anchorStyle:active{
+.anchorStyle:focus, .anchorStyle:hover, .anchorStyle:active{
     
         color: rgb(177, 214, 244) !important;
         opacity: 1;
@@ -69,6 +70,9 @@
     
     
     }
+
+  
+    
     
     
     
@@ -81,8 +85,8 @@
         border-radius: 0px;
 
         width: 250px !important;
-    
-          
+
+   
    
 }
 
@@ -108,8 +112,7 @@
    
         color: rgb(177, 214, 244);
         transition: 0.3s;
-        display: flex;
-        justify-content: end;
+ 
     }
     
     .anchorStyleDropDown:hover, .anchorStyleDropDown:active, .anchorStyleDropDown:focus {

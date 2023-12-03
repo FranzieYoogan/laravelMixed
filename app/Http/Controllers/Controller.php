@@ -101,6 +101,61 @@ class Controller extends BaseController
 
                    
                   
+                } elseif (!$result) {
+
+
+                      @include('/testingLaravel/testing-app/resources/views/welcome.blade.php');
+
+                  echo"   <div class='containerAlert' id='containerAlert'>
+
+                  <div class='containerAlert2' id='containerAlert'>
+                  <<div class='p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400' role='alert'>
+                  <span class='font-medium'>ERROR !!</span>Login have been failed.
+                </div>
+
+                  </div>
+
+
+                  <script>  
+
+                  setTimeout(() => {
+               
+                    document.getElementById('containerAlert').style.marginLeft = '15%';
+                
+                  }, 200);
+
+                  setTimeout(() => {
+               
+                    document.getElementById('containerAlert').style.marginLeft = '0%';
+                
+                  }, 300);
+
+                  setTimeout(() => {
+               
+                    document.getElementById('containerAlert').style.marginRight = '15%';
+                
+                  }, 400);
+
+                  setTimeout(() => {
+               
+                    document.getElementById('containerAlert').style.marginRight = '0%';
+                    document.getElementById('containerAlert').style.marginLeft = '0%';
+                
+                  }, 500);
+
+                  setTimeout(() => {
+               
+                      location.href = '/';
+                  
+                    }, 3000);
+
+                  </script>  ";
+                  
+                
+                  
+                
+
+
                 }
 
               
@@ -150,7 +205,3 @@ class Controller extends BaseController
 
 
 }
-
-
-
-
