@@ -20,7 +20,9 @@ Route::get('/', function () {
 
 
 
-
+Route::get('/calculator', function () {
+    return view('calculator');
+});
 
 
 Route::post('dashboard', [Controller::class, 'exhbit']);
