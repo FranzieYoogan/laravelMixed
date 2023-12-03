@@ -106,10 +106,10 @@ class Controller extends BaseController
 
                       @include('/testingLaravel/testing-app/resources/views/welcome.blade.php');
 
-                  echo"   <div class='containerAlert' id='containerAlert'>
+                  echo"   <div class='containerAlert' id='containerAlert'
 
                   <div class='containerAlert2' id='containerAlert'>
-                  <<div class='p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400' role='alert'>
+                  <div class='p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400' role='alert'>
                   <span class='font-medium'>ERROR !!</span>Login have been failed.
                 </div>
 
@@ -118,8 +118,10 @@ class Controller extends BaseController
 
                   <script>  
 
+              
+
                   setTimeout(() => {
-               
+                    document.querySelector('body').style.backgroundImage = 'url(img/login/snow.gif)';
                     document.getElementById('containerAlert').style.marginLeft = '15%';
                 
                   }, 200);
